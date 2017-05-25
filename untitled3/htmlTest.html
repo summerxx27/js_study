@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="container" style="width: 100%;">
+
+    <div id="header" style="background-color: aliceblue" align="center">
+        <h1 style="margin-bottom: 5px;"> summerxx's blog </h1></div>
+
+    <div id="menu" style="background-color: aquamarine;height:400px;width:300px;float:left">
+        <b> Objective-C </b><br>
+        Swift <br>
+        CSS <br>
+        JavaScript <br>
+        我的心里只有学习, 学习使我快乐<>
+        Swift <br>
+        CSS <br>
+        JavaScript <br>
+        我的心里只有学习, 学习使我快乐<br>
+        Swift <br>
+        CSS <br>
+        JavaScript <br>
+        我的心里只有学习, 学习使我快乐<br>
+        Swift <br>
+        CSS <br>
+        JavaScript <br>
+        我的心里只有学习, 学习使我快乐</div>
+
+</div>
+
+</p>
+<!-- 在html中使用 js 需要在<script>之间填写代码-->
+<script>
+    document.write("<h1>这是一个标题</h1>");
+    document.write("<p>这是一个段落。</p>");
+</script>
+<p>
+
+<p id="demo">
+    JavaScript 能改变 HTML 元素的内容。
+</p>
+<script>
+    function myFunction()
+    {
+        // 获取到html中的内容
+        x=document.getElementById("demo");
+        x.innerHTML="Hello JavaScript! I am summerxx";    // 改变内容
+    }
+</script>
+<!-- 点击调用上面的函数 这里调用上面声明的没有参数的函数-->
+<button type="button" onclick="myFunction()">点击这里</button>
+
+<!-- 在html文件中如何引用js文件 -->
+<script src="mainTest.js"></script>
+<!-- js的输出 -->
+<!-- example1 -->
+<script> window.alert( 1 + 1);
+</script>
+
+<!-- example2 -->
+<script> document.getElementById("demo").innerHTML = "段落已修改。";
+</script>
+
+<!-- example3 -->
+<script> document.write(Date());
+</script>
+
+<!-- example3 -->
+<script> document.write(Date());
+</script>
+
+<script>
+a = 1;
+b = 1;
+c = a + b;
+console.log(c);
+</script>
+
+</body>
+</html>
